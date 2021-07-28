@@ -6,23 +6,16 @@ using System.Threading.Tasks;
 
 namespace Lab08Collections.classes
 {
-  public class Book
-  {
-    public string Title { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public int BookLength { get; set; }
-
-    public Book()
+    public class Book
     {
-      Console.Write("Title: ");
-      Title = Console.ReadLine();
-      Console.Write("Author first name: ");
-      FirstName = Console.ReadLine();
-      Console.Write("Author last name: ");
-      LastName = Console.ReadLine();
-      Console.Write("Number of pages: ");
-      BookLength = Convert.ToInt32(Console.ReadLine());
+        // Here we declare that class Book will have four properties.
+        public string Title { get; set; }
+        public Author Author { get; set; }
+        public int BookLength { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Title} - {Author}";
+        }
     }
-  }
 }

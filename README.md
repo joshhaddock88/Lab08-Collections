@@ -35,33 +35,24 @@
 
 * Books in **Backpack** no longer appear in **Library**.
 
-<!-- ## Screenshots -->
-<!-- ![NA]() -->
-
 ## Setup
 
 Clone the repo from github. Run the executable file.
 
 ## Project Status
 
-* Incomplete.
-
-## Room for Improvement
-
-To do:
-
-* Make Add() method add books to library.
-* Make Checkout() method remove books from library.
-* Make Checkout() method add books to backpack.
-* Make Return() method return books to library.
-* Make Return() method remove books from backpack.
+* Complete.
 
 ## Acknowledgements
 
-* Worked with classmates: Steven Boston, Dave Arno, Jona Brown, Benjamin Ibarra.
+* Worked with classmates: Steven Boston, Dave Arno, Jona Brown, Benjamin Ibarra
+
+* Final Code based on a walkthrough by John Cokos
 
 ## Contact
+
 Created by [Joshua Haddock](https://www.linkedin.com/in/joshuahaddock/) - feel free to contact me!
 
 ## License
+
 This project is open source and available under the [MIT License](./LICENSE).
